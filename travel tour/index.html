@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel and tour website</title>
+
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <!-- font awesome cdn link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+     <!--custom css file link-->
+     <link rel="stylesheet" href="style.css">
+
+</head> 
+<body>
+     
+<!-- header section starts -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>ravel</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+ </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar"  placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+</header>
+
+
+ <!--header section ends -->
+
+<!-- login form container -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-time" id="form-close"></i>
+
+<form action="">
+<h3>login</h3>
+<input type="email"  class="box"  placeholder="enter your email">
+<input type="password"  class="box"  placeholder="enter your password">
+<input type="submit" value="login now" class="btn">
+<input type="checkbox" id="remember">
+<label for="remember">remember me</label>
+<p>forget password? <a href="#">click here</a></p>
+<p>don't have and account? <a href="#">register now</a></p>
+</form>
+
+</div>
+
+<!-- home section starts -->
+
+<section class="home" id="home">
+
+    <div class="content">
+    <h3>Adventure is worthwhile</h3>
+    <p>Travel with us!!,Adventure awaits</p>
+    <a href="#" class="btn">Discover more</a>
+    </div>
+    
+    <div class="contols">
+    <span class="vid-btn" data-src="images/video1.mp4"> </span>
+    </div>
+    
+    <div class="video-container">
+        <video src="images/video1.mp4" id="video-slider"loop autoplay muted></video>
+    </div>
+    </section>
+    
+<!-- home section ends -->
+
+<!-- book section starts -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+      <span>b</span>
+      <span>o</span>
+      <span>o</span>
+      <span>k</span>
+      <span class="space"></span>
+      <span>n</span>
+      <span>o</span>
+      <span>w</span>
+
+</h1>
+
+<div class="row">
+
+<div class="image">
+    <img src="images/travelpic1.jpg" alt="">
+</div>
+
+<form action="action">
+    <div class="inputbox">
+        <h3>where to</h3>
+        <input type="text" placeholder="place name">
+    </div>
+    <div class="inputbox">
+        <h3>how many</h3>
+        <input type="number" placeholder="number of guests">
+    </div>
+    <div class="inputbox">
+        <h3>arrivals</h3>
+        <input type="date">
+    </div>
+    <div class="inputbox">
+        <h3>leaving</h3>
+        <input type="date">
+    </div>
+    <input type="submit" class="btn" value="book now">
+</form>
+
+</div>
+</section>
+
+
+<!-- book section ends -->
+
+<!-- packages section start -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+   </h1>
+
+<div class="box-container">
+
+<div class="box">
+    <img src="images/p-1.webp" alt="">
+    <div class="content">
+        <h3><i class="fas fa-map-marker-alt"></i>mumbai</h3>
+        <p>where dreams are fulfilled and lives are settled!!</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="price">$90.00<span>$120.00</span></div>
+        <a href="#" class="btn">book now</a>
+    </div>
+</div>
+
+<div class="box">
+    <img src="images/pic3.jpg" alt="">
+    <div class="content">
+        <h3><i class="fas fa-map-marker-alt"></i>kerala</h3>
+        <p>A place where your dream set sails!!</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="price">$90.00<span>$120.00</span></div>
+        <a href="#" class="btn">book now</a>
+    </div>
+</div>
+
+<div class="box">
+    <img src="images/pic4.jpg" alt="">
+    <div class="content">
+        <h3><i class="fas fa-map-marker-alt"></i>coorg</h3>
+        <p>Awesome paradise on earth!!</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="price">$90.00<span>$120.00</span></div>
+        <a href="#" class="btn">book now</a>
+    </div>
+</div>
+
+<div class="box">
+    <img src="images/pic7.webp" alt="">
+    <div class="content">
+        <h3><i class="fas fa-map-marker-alt"></i>pondichery</h3>
+        <p>The jouney of thousand miles begin with a single step!!</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="price">$90.00<span>$120.00</span></div>
+        <a href="#" class="btn">book now</a>
+    </div>
+</div>
+
+<div class="box">
+    <img src="images/pic5.webp" alt="">
+    <div class="content">
+        <h3><i class="fas fa-map-marker-alt"></i>goa</h3>
+        <p>We wander for distraction,but we travel for fulfillment!!</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="price">$90.00<span>$120.00</span></div>
+        <a href="#" class="btn">book now</a>
+    </div>
+</div>
+
+<div class="box">
+    <img src="images/pic8.webp" alt="">
+    <div class="content">
+        <h3><i class="fas fa-map-marker-alt"></i>chennai</h3>
+        <p>Investment in travel is investment in yourself!!</p>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="price">$90.00<span>$120.00</span></div>
+        <a href="#" class="btn">book now</a>
+    </div>
+</div>
+</div>
+
+</section>
+
+ <!-- packages section ends -->
+
+ <!-- services section starts -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+   </h1>
+<div class="box-container">
+
+   <div class="box">
+    <i class="fas fa-hotel"></i>
+    <h3>affordable hotels</h3>
+    <p>"It's my pleasure to be of assistance"</p>
+   </div>
+
+   <div class="box">
+    <i class="fas fa-utensils"></i>
+    <h3>food and drinks</h3>
+    <p>"It's my pleasure to be of assistance"</p>
+   </div>
+
+   <div class="box">
+    <i class="fas fa-bullhorn"></i>
+    <h3>safety guide</h3>
+    <p>"It's my pleasure to be of assistance"</p>
+   </div>
+
+   <div class="box">
+    <i class="fas fa-globe-asia"></i>
+    <h3>arround the world</h3>
+    <p>"It's my pleasure to be of assistance"</p>
+   </div>
+
+<div class="box">
+    <i class="fas fa-plane"></i>
+    <h3>fastest travel</h3>
+    <p>"It's my pleasure to be of assistance"</p>
+   </div>
+
+   <div class="box">
+    <i class="fas fa-hiking"></i>
+    <h3>adventures</h3>
+    <p>"It's my pleasure to be of assistance"</p>
+   </div>
+
+</div>
+
+</section>
+  <!-- services section ends -->
+
+<!-- gallery section starts -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>G</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+   </h1>
+
+   <div class="box-container">
+
+    <div class="box">
+        <img src="images/image0.jpg" alt="">
+        <div class="content">
+            <h3>amazing places</h3>
+            <p>The best view comes after the Hardest climb!!</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+   
+
+   <div class="box">
+    <img src="images/image1.webp" alt="">
+    <div class="content">
+        <h3>amazing places</h3>
+        <p>The best view comes after the Hardest climb!!</p>
+        <a href="#" class="btn">see more</a>
+    </div>
+</div>
+
+
+<div class="box">
+    <img src="images/image2.webp" alt="">
+    <div class="content">
+        <h3>amazing places</h3>
+        <p>The best view comes after the Hardest climb!!</p>
+        <a href="#" class="btn">see more</a>
+    </div>
+</div>
+
+
+<div class="box">
+    <img src="images/image3.jpg" alt="">
+    <div class="content">
+        <h3>amazing places</h3>
+        <p>The best view comes after the Hardest climb!!</p>
+        <a href="#" class="btn">see more</a>
+    </div>
+</div>
+
+
+<div class="box">
+    <img src="images/image4.jpg" alt="">
+    <div class="content">
+        <h3>amazing places</h3>
+        <p>The best view comes after the Hardest climb!!</p>
+        <a href="#" class="btn">see more</a>
+    </div>
+</div>
+
+
+<div class="box">
+    <img src="images/image5.webp" alt="">
+    <div class="content">
+        <h3>amazing places</h3>
+        <p>The best view comes after the Hardest climb!!</p>
+        <a href="#" class="btn">see more</a>
+    </div>
+</div>
+
+
+<div class="box">
+    <img src="images/image6.jpg" alt="">
+    <div class="content">
+        <h3>amazing places</h3>
+        <p>The best view comes after the Hardest climb!!</p>
+        <a href="#" class="btn">see more</a>
+    </div>
+</div>
+
+
+<div class="box">
+    <img src="images/image7.jpg" alt="">
+    <div class="content">
+        <h3>amazing places</h3>
+        <p>The best view comes after the Hardest climb!!</p>
+        <a href="#" class="btn">see more</a>
+    </div>
+</div>
+
+
+<div class="box">
+    <img src="images/image8.jpg" alt="">
+    <div class="content">
+        <h3>amazing places</h3>
+        <p>The best view comes after the Hardest climb!!</p>
+        <a href="#" class="btn">see more</a>
+    </div>
+</div>
+
+</div>
+</section>
+
+
+ <!-- gallery section ends -->
+
+<!-- review section starts-->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>R</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+   </h1>
+
+<div class="swiper-container review-slider">
+
+<div class="swiper-wrapper">
+
+<div class="swiper-slide">
+    <div class="box">
+        <img src="images/p1.jpeg" alt="">
+        <h3>Isha</h3>
+            <p> A lovely place to visit with easy access and good facilities.
+             The falls here are really strong - the energy created from the water rushing over is 
+             incredible and quite loud!</p>
+         <div class="stars">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="far fa-star"></i> 
+          </div>
+        </div>
+</div>
+
+<div class="swiper-slide">
+    <div class="box">
+        <img src="images/p22.jpg" alt="">
+        <h3>Natesh</h3>
+        <p> A lovely place to visit with easy access and good facilities.
+             The falls here are really strong - the energy created from the water rushing over is 
+             incredible and quite loud!</p>
+   <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i> 
+   </div>
+    </div>
+</div>
+
+<div class="swiper-slide">
+    <div class="box">
+        <img src="images/p3.jpeg" alt="">
+        <h3>harika</h3>
+        <p> A lovely place to visit with easy access and good facilities.
+             The falls here are really strong - the energy created from the water rushing over is 
+             incredible and quite loud!</p>
+   <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="far fa-star"></i> 
+   </div>
+    </div>
+</div>
+
+<div class="swiper-slide">
+    <div class="box">
+        <img src="images/p4.jpeg" alt="">
+        <h3>Rushi</h3>
+        <p> A lovely place to visit with easy access and good facilities.
+             The falls here are really strong - the energy created from the water rushing over is 
+             incredible and quite loud!</p>
+   <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i> 
+   </div>
+    </div>
+</div>
+
+
+</div>
+</div>
+
+</section>
+
+<!-- review section ends-->
+
+<!-- contact section starts -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+        <span>u</span>
+        <span>s</span>
+    </h1>
+
+    <div class ="row">
+
+    <div class="image">
+        <img src="images/pic0.jpg" alt="">
+    </div>
+
+    <form action="">
+        <div class="inputbox">
+            <input type="text" placeholder="name">
+            <input type="email" placeholder="email">
+        </div>
+        <div class="inputbox">
+            <input type="number" placeholder="number">
+            <input type="text" placeholder="subject">
+        </div>
+        <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" class="btn" value="send message">
+    </form>
+  </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- brand section -->
+ <section class="brand-container">
+
+<div class="swiper-container brand-slider">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"> <img src="images/b-1.jpg" alt=""></div>
+        <div class="swiper-slide"> <img src="images/b-2.png" alt=""></div>
+        <div class="swiper-slide"> <img src="images/b-3.png" alt=""></div>
+        <div class="swiper-slide"> <img src="images/b-4.jpg" alt=""></div>
+        <div class="swiper-slide"> <img src="images/b-5.jpg" alt=""></div>
+        <div class="swiper-slide"> <img src="images/b-6.png" alt=""></div>
+    </div>
+</div>
+
+</section>
+
+<!-- footer section -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+    <div class="box">
+        <h3>about us</h3>
+         <p>"welcome to TravelTreks,your gateway to unforgettable adventures!! our team of passionate travel enthusiasts
+             is dedicated to crafting  unique experiences that showcase the authentic beauty and culture of our region.
+             with years of expertise and a deep love for our community,we curate personalized tours,activities and packages
+             that cater to every interest and preference.Join us on a journey that will leave you with lifelong memories and 
+             a heart full of wonder "  </p>
+    </div>
+    <div class="box">
+        <h3>branch locations</h3>
+        <a href="#">India</a>
+        <a href="#">usa</a>
+        <a href="#">france</a>
+        <a href="#">Japan</a>
+    </div>
+
+    <div class="box">
+        <h3>quick links</h3>
+        <a href="#">home</a>
+        <a href="#">book</a>
+        <a href="#">packages</a>
+        <a href="#">services</a>
+        <a href="#">gallery</a>
+        <a href="#">review</a>
+        <a href="#">contact</a>
+     </div>
+     <div class="box">
+        <h3>follow us</h3>
+        <a href="#">facebbook</a>
+        <a href="#">twitter</a>
+        <a href="#">instagram</a>
+        <a href="#">linkedin</a>
+        <a href="#">telegram</a>
+     </div>
+
+
+    </div>
+
+
+</section>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link -->
+<script src="script.js"></script>
+</body>
+</html>
